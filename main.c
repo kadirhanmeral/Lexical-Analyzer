@@ -425,12 +425,12 @@ int main(void) {
   FILE *code_sta;
   FILE *code_lex;
       
-  code_sta = fopen("/Users/kadirhanmeral/Desktop/code.sta.txt", "r");
+  code_sta = fopen("code.sta.txt", "r");
   if (code_sta == NULL) {
     printf("File cannot be opened!\n");
     return 1;
   }
-  code_lex = fopen("/Users/kadirhanmeral/Desktop/code.lex.txt", "w");
+  code_lex = fopen("code.lex.txt", "w");
   if (code_lex == NULL) {
    printf("File cannot be opened!\n");
    return 1;
